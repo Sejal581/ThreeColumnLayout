@@ -1,0 +1,28 @@
+
+
+.row {
+	width: 100%;
+	min-height: 100px;
+	background-color: #ccc;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.container{
+	display: flex;
+	background-color: transparent;
+	padding: 5px;
+
+}
+.col{
+	background-color: #ccc;
+    width: 75%;
+    box-sizing: border-box;
+   margin-left: 10px;
+}
+.col-flex {
+    width: 15%;
+    margin-right: 10px;
+    margin-left: 0px;
+}

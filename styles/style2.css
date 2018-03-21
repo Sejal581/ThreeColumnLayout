@@ -1,0 +1,31 @@
+.row {
+	width: 100%;
+	min-height: 150px;
+	background-color: #ccc;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.flex-container {
+	min-height: 400px;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.col {
+	background-color: #ccc;
+	box-sizing: border-box;
+	width: 25%;
+}
+.col-left {
+	width: 15%;
+}
+.col-middle {
+	width: 65%;
+}
+.col-right{
+	width: 15%;
+}
